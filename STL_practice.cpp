@@ -38,32 +38,45 @@ int main()
     //     cout << arr2[i] << " ";
     // }
 
-    vector<vector<int>> vec;
+    // vector<vector<int>> vec;
 
-    vector<int> vec1;
-    vec1.push_back(1);
-    vec1.push_back(2);
+    // vector<int> vec1;
+    // vec1.push_back(1);
+    // vec1.push_back(2);
 
-    vector<int> vec2;
-    vec2.push_back(10);
-    vec2.push_back(20);
+    // vector<int> vec2;
+    // vec2.push_back(10);
+    // vec2.push_back(20);
 
-    vector<int> vec3;
-    vec3.push_back(9);
-    vec3.push_back(28);
+    // vector<int> vec3;
+    // vec3.push_back(9);
+    // vec3.push_back(28);
 
-    vec.push_back(vec1);
-    vec.push_back(vec2);
-    vec.push_back(vec3);
+    // vec.push_back(vec1);
+    // vec.push_back(vec2);
+    // vec.push_back(vec3);
 
-    for (auto it : vec)
-    {
-        for (auto i : it)
-        {
-            cout << i << " ";
-        }
-        cout << endl;
-    }
+    // for (auto it : vec)
+    // {
+    //     for (auto i : it)
+    //     {
+    //         cout << i << " ";
+    //     }
+    //     cout << endl;
+    // }
 
-    cout << vec[2][1] << endl;
+    // cout << vec[2][1] << endl;
+
+    set<int> st = {1, 2, 3, 4, 5};
+    // int n;
+    // cin >> n;
+    // for (int i = 0; i < n; i++)
+    // {
+    //     int x;
+    //     cin >> x;
+    //     st.insert(x);
+    // }
+
+    auto it = st.find(4);
+    cout << it << endl;
 }

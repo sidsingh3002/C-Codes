@@ -1,0 +1,1 @@
+{"name":"Local: googleK_sherlock","url":"c:\\C Codes\\googleK_sherlock.cpp","tests":[{"id":1656498254672,"input":"3\n1 0\n1 1\n3 2","output":"Case #1: 0\nCase #2: 1\nCase #3: 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\C Codes\\googleK_sherlock.cpp","group":"local","local":true}

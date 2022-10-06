@@ -1,35 +1,33 @@
-#include <iostream>
-#include <bits/stdc++.h>
 
-#include <cmath>
+#include <iostream>
 using namespace std;
+
+// function declaration
+int addition(int a, int b);
 
 int main()
 {
-    // your code goes here
-    int t;
-    cin >> t;
-    float n, x;
-    while (t != 0)
-    {
-        cin >> n >> x;
-        if (n > 0)
-        {
-            if (n <= 6)
-            {
+    int num1; // to store first number
+    int num2; // to store second number
+    int add;  // to store addition
 
-                cout << x << endl;
-            }
-            else
-            {
-                float s;
-                s = n / 6;
+    // read numbers
+    cout << "Enter first number: ";
+    cin >> num1;
+    cout << "Enter second number: ";
+    cin >> num2;
 
-                cout << ceil(s) * x << endl;
-            }
-        }
+    // call function
+    add = addition(num1, num2);
 
-        t--;
-    }
+    // print addition
+    cout << "Addition is: " << add << endl;
+
     return 0;
+}
+
+// function definition
+int addition(int a, int b)
+{
+    return (a + b);
 }
