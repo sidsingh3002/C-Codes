@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "System Call.C": "cpp",
+        "BANKERS.C": "cpp",
+        "BARBER.C": "cpp",
+        "DINING.C": "cpp",
+        "FCFS.C": "cpp",
+        "PRODUCER VALUE.C": "cpp",
+        "PRODUCER.C": "cpp",
+        "SAFETY.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

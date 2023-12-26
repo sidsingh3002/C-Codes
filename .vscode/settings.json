@@ -4,6 +4,9 @@
         "iostream": "cpp",
         "utility": "cpp",
         "vector": "cpp",
-        "System Call.C": "cpp"
+        "System Call.C": "cpp",
+        "BANKERS.C": "cpp",
+        "DINING.C": "cpp",
+        "xstring": "cpp"
     }
 }
